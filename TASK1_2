@@ -1,1 +1,18 @@
+# SM_TASK1
+algorithm to install ROS on Jetson Nano :
+1. git clone https://github.com/JetsonHacksNano/installROS.git
+2. cd installROS/
+3. ./installROS.sh
+4. ./installROS.sh -p ros-melodic-desktop 
+
+#setupCatkinWorkspace.sh
+
+5. ./setupCatkinWorkspace.sh
+6. gedit ~/.bashrc
+7. source ~/.bashrc
+8. roscore
+
+#TRY THIS TO ENSURE RUNINIG:
+
+9. rostopic list 
 
